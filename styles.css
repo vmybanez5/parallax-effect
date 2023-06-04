@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px/1.5 Arial, sans-serif;
+  background-image: url("images/img1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+}
+
+.header {
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.vision {
+  padding: 50px;
+  text-align: justify;
+  text-align-last: left;
+  min-height: 70vh;
+  background-color: white;
+}
+
+.mission {
+  padding: 50px;
+  text-align: justify;
+  text-align-last: left;
+  min-height: 70vh;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.goals {
+  padding: 50px;
+  text-align: justify;
+  text-align-last: left;
+  min-height: 70vh;
+  color: white;
+  background-color: darkgreen;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+.footer {
+  padding: 50px;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
